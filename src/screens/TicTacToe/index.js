@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TouchableOpacity, Button} from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
+import Colors from '../../constants/Colors';
+import whitePawn from '../../../assets/white_pawn.svg';
+import blackPawn from '../../../assets/black_pawn.svg';
+import SvgUri from 'react-native-svg-uri';
 
 export default () => {
     const [gameState, setGameState] = useState([[0,0,0],[0,0,0],[0,0,0]]);
     const [currentPlayer, setCurrentPlayer] = useState(1);
 
-    const initalizeGame = () => {
+    const initializeGame = () => {
         setGameState([[0,0,0],[0,0,0],[0,0,0]])
     };
     const getWinner = () => {
@@ -50,7 +54,7 @@ export default () => {
     };
 
     const onNewGame = () => {
-        initalizeGame();
+        initializeGame();
     };
 
     const onTilePress = (row, col) => {
@@ -71,18 +75,26 @@ export default () => {
         let winner = getWinner();
         if (winner === 1) {
             console.log('Player 1 is the winner');
-            initalizeGame();
+            initializeGame();
         }else if (winner === -1){
             console.log('Player 2 is the winner');
-            initalizeGame();
+            initializeGame();
         }
     };
 
     const renderIcon = (row, col) => {
         const value = gameState[row][col];
         switch(value){
-            case 1: return <FontAwesome name="rocket" style={ styles.tileX } />;
-            case -1: return <FontAwesome name="star" style={ styles.tileO} />;
+            case 1: return <SvgUri
+                width="50"
+                height="50"
+                source={whitePawn}
+            />;
+            case -1 : return  <SvgUri
+                width="50"
+                height="50"
+                source={blackPawn}
+            />;
             default: return <View />;
         }
     };
@@ -91,38 +103,38 @@ export default () => {
     return(
         <View style={{ flex: 1, justifyContent: 'center' , alignItems: 'center'}}>
                 <View style={{flexDirection: "row"}}>
-                    <TouchableOpacity onPress={() => onTilePress(0,0)} style={[styles.tile, { borderLeftWidth: 0, borderTopWidth: 0}]}>
+                    <TouchableOpacity onPress={() => onTilePress(0,0)} style={[styles.tile, { borderLeftWidth: 0, borderTopWidth: 0, borderColor: Colors.primaryBlack}]}>
                         {renderIcon(0, 0)}
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(0,1)} style={[styles.tile, { borderTopWidth: 0}]} >
+                    <TouchableOpacity onPress={() => onTilePress(0,1)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
                         {renderIcon(0, 1)}
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(0,2)} style={[styles.tile, { borderRightWidth: 0, borderTopWidth: 0}]}>
+                    <TouchableOpacity onPress={() => onTilePress(0,2)} style={[styles.tile, { borderRightWidth: 0, borderTopWidth: 0, borderColor: Colors.primaryBlack}]}>
                         {renderIcon(0, 2)}
                     </TouchableOpacity>
 
                 </View>
 
                 <View style={{flexDirection: "row"}}>
-                    <TouchableOpacity onPress={() => onTilePress(1,0)} style={[styles.tile, { borderLeftWidth: 0}]} >
+                    <TouchableOpacity onPress={() => onTilePress(1,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
                         {renderIcon(1, 0)}
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(1,1)} style={styles.tile}>
+                    <TouchableOpacity onPress={() => onTilePress(1,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
                         {renderIcon(1, 1)}
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(1,2)} style={[styles.tile, { borderRightWidth: 0}]}>
+                    <TouchableOpacity onPress={() => onTilePress(1,2)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
                         {renderIcon(1, 2)}
                     </TouchableOpacity>
                 </View>
 
                 <View style={{flexDirection: "row"}}>
-                    <TouchableOpacity onPress={() => onTilePress(2,0)} style={[styles.tile, { borderLeftWidth: 0, borderBottomWidth: 0}]}>
+                    <TouchableOpacity onPress={() => onTilePress(2,0)} style={[styles.tile, { borderLeftWidth: 0, borderBottomWidth: 0, borderColor: Colors.primaryBlack}]}>
                         {renderIcon(2, 0)}
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(2,1)} style={[styles.tile, { borderBottomWidth: 0}]} >
+                    <TouchableOpacity onPress={() => onTilePress(2,1)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
                         {renderIcon(2, 1)}
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(2,2)} style={[styles.tile, { borderRightWidth: 0, borderBottomWidth: 0}]}>
+                    <TouchableOpacity onPress={() => onTilePress(2,2)} style={[styles.tile, { borderRightWidth: 0, borderBottomWidth: 0, borderColor: Colors.primaryBlack}]}>
                         {renderIcon(2, 2)}
                     </TouchableOpacity>
                 </View>
@@ -147,17 +159,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-
-    tileX: {
-        color: "red",
-        fontSize: 50
-    },
-
-    tileO: {
-        color: "green",
-        fontSize: 50
-    },
-
     btn: {
         marginTop: 20,
         color: 'blue',

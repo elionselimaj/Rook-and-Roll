@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4b9396-e2bc-4bc7-9a41-bedcaa6eb052" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/black_pawn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/white_pawn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/TicTacToe/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TicTacToe/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,35 +19,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/TicTacToe/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+            <state relative-caret-position="334">
+              <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#364#380#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constants/Colors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -61,8 +45,12 @@
       <find>TicTacToe</find>
       <find>this.</find>
       <find>MaterialCommunityIcons</find>
-      <find>ches</find>
       <find>container</find>
+      <find>screen</find>
+      <find>initialize</find>
+      <find>ches</find>
+      <find>svg</find>
+      <find>whitePawn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,15 +74,17 @@
         <option value="$PROJECT_DIR$/src/components/Footer/styles.js" />
         <option value="$PROJECT_DIR$/src/navigation/AppNavigator.js" />
         <option value="$PROJECT_DIR$/src/navigation/BottomNavigator.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/assets/black_pawn.svg" />
+        <option value="$PROJECT_DIR$/assets/white_pawn.svg" />
         <option value="$PROJECT_DIR$/src/screens/TicTacToe/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1032" />
+    <option name="width" value="1070" />
     <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -116,55 +106,6 @@
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="Chessboard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619028163767</updated>
       <workItem from="1619028164975" duration="6804000" />
-      <workItem from="1619038082596" duration="5545000" />
+      <workItem from="1619038082596" duration="8469000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore &amp; readme">
       <created>1619031039006</created>
@@ -223,17 +164,24 @@
       <option name="project" value="LOCAL" />
       <updated>1619114336651</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="basic tic tac toe">
+      <created>1619117766395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619117766395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12349000" />
+    <option name="totallyTimeSpent" value="15273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1032" height="783" extended-state="0" />
+    <frame x="0" y="23" width="1070" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23535457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18493804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -249,7 +197,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32919255" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32934132" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3428144" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore &amp; readme" />
     <MESSAGE value="bottom navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="bottom navigation" />
+    <MESSAGE value="basic tic tac toe" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic tic tac toe" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -319,13 +268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -390,12 +332,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/black_pawn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-svg-uri/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="307" selection-start-line="307" selection-end-line="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/white_pawn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/TicTacToe/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+        <state relative-caret-position="334">
+          <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#364#380#0" />
           </folding>
         </state>
       </provider>
