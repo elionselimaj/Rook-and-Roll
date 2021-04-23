@@ -65,7 +65,6 @@ export default () => {
         const player = currentPlayer;
         const arr = gameState.slice();
         arr[row][col] = player;
-        //setGameState({arr});
         setGameState(arr);
 
         const nextPlayer = (player === 1 ) ? -1: 1;
@@ -190,7 +189,7 @@ export default () => {
                     </TouchableOpacity>
                 </View>
 
-                <Button title="New Game" onPress={onNewGame} style={styles.btn}/>
+                <Button title="New Game" onPress={onNewGame}/>
             </View>
     )
 }
@@ -210,14 +209,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-    btn: {
-        marginTop: 20,
-        color: 'blue',
-        fontWeight: 'bold',
-        fontSize: 20
-
-
-    }
 
 });
 

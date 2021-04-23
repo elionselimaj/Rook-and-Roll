@@ -7,7 +7,7 @@ import ticTacToe from '../../../assets/tic-tac-toe.png';
 import ticTacToeActive from '../../../assets/tic-tac-toe-active.png';
 
 export default ({navigation}) => {
-    const [activeTab, setActiveTab] = useState('home');
+    const [activeTab, setActiveTab] = useState('chess');
     return (
         <View style={styles.container}>
             <View
