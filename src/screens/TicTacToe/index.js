@@ -189,7 +189,7 @@ export default () => {
                     </TouchableOpacity>
                 </View>
 
-                <Button title="New Game" onPress={onNewGame}/>
+                <Button title={'New Game'} onPress={onNewGame}/>
             </View>
     )
 }
