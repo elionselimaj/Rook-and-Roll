@@ -7,7 +7,7 @@ import ticTacToe from '../../../assets/tic-tac-toe.png';
 import ticTacToeActive from '../../../assets/tic-tac-toe-active.png';
 
 export default ({navigation}) => {
-    const [activeTab, setActiveTab] = useState('chess');
+    const isChessTabActive = navigation?.state?.index === 0;
     return (
         <View style={styles.container}>
             <View
@@ -29,39 +29,36 @@ export default ({navigation}) => {
                 <View style={{flex: 1, alignItems: 'center'}}>
                     <TouchableWithoutFeedback
                         onPress={() => {
-                            setActiveTab('chess');
                             navigation.navigate('Chess');
                         }}
                     >
                         <MaterialCommunityIcons
                             size={26}
                             name="checkerboard"
-                            color={activeTab === 'chess' ? Colors.primaryBlack : Colors.menuGrayColor}
+                            color={isChessTabActive ? Colors.primaryBlack : Colors.menuGrayColor}
                             onPress={() => {
-                                setActiveTab('chess');
                                 navigation.navigate('Chess');
                             }}
                         />
                     </TouchableWithoutFeedback>
                     <Text style={{
                         marginTop: 2,
-                        color: activeTab === 'chess' ? Colors.primaryBlack : Colors.menuGrayColor
+                        color: isChessTabActive ? Colors.primaryBlack : Colors.menuGrayColor
                     }}>Chess</Text>
                 </View>
                 <View style={{flex: 1, alignItems: 'center'}}>
                     <TouchableWithoutFeedback
                         onPress={() => {
-                            setActiveTab('tic');
                             navigation.navigate('Tic');
                         }}
                     >
                         <Image
-                            source={activeTab === 'tic' ? ticTacToeActive : ticTacToe}
+                            source={!isChessTabActive ? ticTacToeActive : ticTacToe}
                             style={{width: 26, height: 26}}
                         />
                     </TouchableWithoutFeedback>
                     <Text
-                        style={{marginTop: 2, color: activeTab === 'tic' ? Colors.primaryBlack : Colors.menuGrayColor}}>Tic
+                        style={{marginTop: 2, color: !isChessTabActive ? Colors.primaryBlack : Colors.menuGrayColor}}>Tic
                         Tac Toe</Text>
 
                 </View>

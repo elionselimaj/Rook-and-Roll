@@ -59,7 +59,7 @@ export default () => {
     const onTilePress = (row, col) => {
        let value = gameState[row][col];
         if (value !== 0) {
-            console.log('value !== 0');
+            console.log('restart the game');
             return;
         }
         const player = currentPlayer;
@@ -201,11 +201,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-
     tile: {
         borderWidth: 2,
-        width: 80,
-        height: 80,
+        width: 70,
+        height: 70,
         alignItems: 'center',
         justifyContent: 'center'
     },
