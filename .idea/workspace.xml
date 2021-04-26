@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4b9396-e2bc-4bc7-9a41-bedcaa6eb052" name="Default Changelist" comment="">
+    <list default="true" id="fd4b9396-e2bc-4bc7-9a41-bedcaa6eb052" name="Default Changelist" comment="minor changes">
+      <change afterPath="$PROJECT_DIR$/src/assets/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/wr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Background/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Board/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Chessboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chessboard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/BottomNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/BottomNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chessboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/TicTacToe/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TicTacToe/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/Chessboard/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/Chess/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="15" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -32,10 +49,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/Chess/Piece/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="246">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -44,20 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>App</find>
-      <find>import App</find>
-      <find>react-native-gestu</find>
-      <find>react-native-web</find>
-      <find>&quot;expo-font&quot;: &quot;~8.4.0&quot;,</find>
-      <find>swipeen</find>
-      <find>TicTacToe</find>
-      <find>this.</find>
-      <find>MaterialCommunityIcons</find>
-      <find>container</find>
-      <find>screen</find>
-      <find>initialize</find>
-      <find>ches</find>
-      <find>svg</find>
       <find>whitePawn</find>
       <find>ini</find>
       <find>gitignore</find>
@@ -66,13 +90,40 @@
       <find>Chessbo</find>
       <find>12.1</find>
       <find>backgro</find>
+      <find>height</find>
+      <find>5-</find>
+      <find>Chessboard</find>
+      <find>console</find>
+      <find>package</find>
+      <find>prett</find>
+      <find>gesture</find>
+      <find>chess</find>
+      <find>redash</find>
+      <find>react-native-reanimated</find>
+      <find>react-native-redash</find>
+      <find>POSITION</find>
+      <find>runOnJS</find>
+      <find>reanimated</find>
+      <find>f</find>
+      <find>Position</find>
+      <find>&quot;</find>
+      <find>movePiece</find>
+      <find>useCallback</find>
+      <find>Piece</find>
+      <find>onend</find>
+      <find>width</find>
     </findStrings>
+    <replaceStrings>
+      <replace>;</replace>
+      <replace>'</replace>
+      <replace>../../../</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
   </component>
@@ -86,23 +137,33 @@
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/components/Footer/styles.js" />
-        <option value="$PROJECT_DIR$/src/navigation/AppNavigator.js" />
-        <option value="$PROJECT_DIR$/src/navigation/BottomNavigator.js" />
         <option value="$PROJECT_DIR$/assets/black_pawn.svg" />
+        <option value="$PROJECT_DIR$/src/screens/Chessboard/Board/index.js" />
         <option value="$PROJECT_DIR$/assets/white_pawn.svg" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/TicTacToe/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/screens/Chessboard/Board/index.js" />
         <option value="$PROJECT_DIR$/src/screens/Chessboard/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/TicTacToe/index.js" />
+        <option value="$PROJECT_DIR$/src/navigation/BottomNavigator.js" />
+        <option value="$PROJECT_DIR$/src/navigation/AppNavigator.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Background/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Board/index.js" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="733" />
     <option name="y" value="23" />
-    <option name="width" value="707" />
-    <option name="height" value="787" />
+    <option name="width" value="1044" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,6 +180,11 @@
             <path>
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
@@ -142,6 +208,12 @@
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,7 +221,30 @@
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="Chessboard" type="462c0819:PsiDirectoryNode" />
+              <item name="Chess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Chess" type="462c0819:PsiDirectoryNode" />
+              <item name="Board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Chess" type="462c0819:PsiDirectoryNode" />
+              <item name="Piece" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,11 +256,19 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
@@ -193,7 +296,9 @@
       <workItem from="1619028164975" duration="6804000" />
       <workItem from="1619038082596" duration="13394000" />
       <workItem from="1619179816505" duration="5836000" />
-      <workItem from="1619187458677" duration="1484000" />
+      <workItem from="1619187458677" duration="8979000" />
+      <workItem from="1619431223609" duration="9265000" />
+      <workItem from="1619469755054" duration="1847000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore &amp; readme">
       <created>1619031039006</created>
@@ -230,24 +335,45 @@
       <option name="project" value="LOCAL" />
       <updated>1619176978676</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="basic chess board">
+      <created>1619188996282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619188996282</updated>
+    </task>
+    <task id="LOCAL-00007" summary="zoom in &amp; out">
+      <created>1619205541104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619205541104</updated>
+    </task>
+    <task id="LOCAL-00008" summary="minor changes">
+      <created>1619428765011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619428765011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27518000" />
+    <option name="totallyTimeSpent" value="46125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="733" y="23" width="707" height="787" extended-state="0" />
+    <frame x="0" y="23" width="1044" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32507288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20136853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24844721" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940404" visible="true" weight="0.24550898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -257,8 +383,8 @@
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32934132" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.36574075" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.36526945" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005959" side_tool="true" weight="0.24700598" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,7 +400,10 @@
     <MESSAGE value="basic tic tac toe" />
     <MESSAGE value="add svg pawns" />
     <MESSAGE value="tic tac toe 5x5" />
-    <option name="LAST_COMMIT_MESSAGE" value="tic tac toe 5x5" />
+    <MESSAGE value="basic chess board" />
+    <MESSAGE value="zoom in &amp; out" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -323,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/AppNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -350,27 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/BottomNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/black_pawn.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native-svg-uri/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="307" selection-start-line="307" selection-end-line="307" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/white_pawn.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
@@ -387,38 +486,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/TicTacToe/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="196" selection-start-line="196" selection-end-line="214" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/styled-components/native/dist/styled-components.native.esm.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chessboard/Board/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chessboard/Board/index.js" />
     <entry file="file://$PROJECT_DIR$/src/constants/Colors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -426,12 +495,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chessboard/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-svg-uri/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="15" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="161">
+          <caret line="301" column="8" selection-start-line="301" selection-start-column="2" selection-end-line="301" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/white_pawn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Chess/Board.tsx" />
+    <entry file="file://$USER_HOME$/Desktop/Chess/Background.tsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/chess.js/chess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Notation/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/assets/wr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/wq.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/wn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/wb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/bp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/TicTacToe/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/AppNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/BottomNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Piece/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
