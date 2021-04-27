@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import Chessboard from '../screens/Chessboard';
+import Chessboard from '../screens/Chess';
 import TicTacToe from '../screens/TicTacToe';
 import FooterNav from '../components/Footer';
 

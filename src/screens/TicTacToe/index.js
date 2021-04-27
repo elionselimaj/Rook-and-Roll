@@ -57,7 +57,7 @@ export default () => {
     };
 
     const onTilePress = (row, col) => {
-       let value = gameState[row][col];
+        let value = gameState[row][col];
         if (value !== 0) {
             console.log('restart the game');
             return;
@@ -84,113 +84,111 @@ export default () => {
         const value = gameState[row][col];
         switch(value){
             case 1: return <SvgUri
-                width="50"
-                height="50"
-                source={whitePawn}
+              width="50"
+              height="50"
+              source={whitePawn}
             />;
             case -1 : return  <SvgUri
-                width="50"
-                height="50"
-                source={blackPawn}
+              width="50"
+              height="50"
+              source={blackPawn}
             />;
             default: return <View />;
         }
     };
-
-
     return(
-        <View style={{ flex: 1, justifyContent: 'center' , alignItems: 'center'}}>
-                <View style={{flexDirection: "row"}}>
-                    <TouchableOpacity onPress={() => onTilePress(0,0)} style={[styles.tile, { borderLeftWidth: 0, borderTopWidth: 0, borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(0, 0)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(0,1)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(0, 1)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(0,2)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(0, 2)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(0,3)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(0, 3)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(0,4)} style={[styles.tile, { borderRightWidth: 0, borderTopWidth: 0, borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(0, 4)}
-                    </TouchableOpacity>
-                </View>
+      <View style={{ flex: 1, justifyContent: 'center' , alignItems: 'center'}}>
+          <View style={{flexDirection: "row"}}>
+              <TouchableOpacity onPress={() => onTilePress(0,0)} style={[styles.tile, { borderLeftWidth: 0, borderTopWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(0, 0)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(0,1)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(0, 1)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(0,2)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(0, 2)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(0,3)} style={[styles.tile, { borderTopWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(0, 3)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(0,4)} style={[styles.tile, { borderRightWidth: 0, borderTopWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(0, 4)}
+              </TouchableOpacity>
+          </View>
 
-                <View style={{flexDirection: "row"}}>
-                    <TouchableOpacity onPress={() => onTilePress(1,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(1, 0)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(1,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(1, 1)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(1,2)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(1, 2)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(1,3)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(1, 3)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(1,4)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(1, 4)}
-                    </TouchableOpacity>
-                </View>
+          <View style={{flexDirection: "row"}}>
+              <TouchableOpacity onPress={() => onTilePress(1,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(1, 0)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(1,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(1, 1)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(1,2)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(1, 2)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(1,3)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(1, 3)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(1,4)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(1, 4)}
+              </TouchableOpacity>
+          </View>
 
-            <View style={{flexDirection: "row"}}>
-                <TouchableOpacity onPress={() => onTilePress(2,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
-                    {renderIcon(2, 0)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(2,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(2, 1)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(2,2)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(2, 2)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(2,3)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(2, 3)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(2,4)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(2, 4)}
-                </TouchableOpacity>
-            </View>
-            <View style={{flexDirection: "row"}}>
-                <TouchableOpacity onPress={() => onTilePress(3,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
-                    {renderIcon(3, 0)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(3,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(3, 1)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(3,2)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(3, 2)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(3,3)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(3, 3)}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={() => onTilePress(3,4)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
-                    {renderIcon(3, 4)}
-                </TouchableOpacity>
-            </View>
+          <View style={{flexDirection: "row"}}>
+              <TouchableOpacity onPress={() => onTilePress(2,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(2, 0)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(2,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(2, 1)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(2,2)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(2, 2)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(2,3)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(2, 3)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(2,4)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(2, 4)}
+              </TouchableOpacity>
+          </View>
+          <View style={{flexDirection: "row"}}>
+              <TouchableOpacity onPress={() => onTilePress(3,0)} style={[styles.tile, { borderLeftWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(3, 0)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(3,1)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(3, 1)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(3,2)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(3, 2)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(3,3)} style={[styles.tile, { borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(3, 3)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(3,4)} style={[styles.tile, { borderRightWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(3, 4)}
+              </TouchableOpacity>
+          </View>
 
-                <View style={{flexDirection: "row"}}>
-                    <TouchableOpacity onPress={() => onTilePress(4,0)} style={[styles.tile, { borderLeftWidth: 0, borderBottomWidth: 0, borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(4, 0)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(4,1)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(4, 1)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(4,2)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(4, 2)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(4,3)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
-                        {renderIcon(4, 3)}
-                    </TouchableOpacity>
-                    <TouchableOpacity onPress={() => onTilePress(4,4)} style={[styles.tile, { borderRightWidth: 0, borderBottomWidth: 0, borderColor: Colors.primaryBlack}]}>
-                        {renderIcon(4, 4)}
-                    </TouchableOpacity>
-                </View>
+          <View style={{flexDirection: "row"}}>
+              <TouchableOpacity onPress={() => onTilePress(4,0)} style={[styles.tile, { borderLeftWidth: 0, borderBottomWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(4, 0)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(4,1)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(4, 1)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(4,2)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(4, 2)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(4,3)} style={[styles.tile, { borderBottomWidth: 0, borderColor: Colors.primaryBlack}]} >
+                  {renderIcon(4, 3)}
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => onTilePress(4,4)} style={[styles.tile, { borderRightWidth: 0, borderBottomWidth: 0, borderColor: Colors.primaryBlack}]}>
+                  {renderIcon(4, 4)}
+              </TouchableOpacity>
+          </View>
 
-                <Button title={'New Game'} onPress={onNewGame}/>
-            </View>
+          <Button title={'New Game'} onPress={onNewGame}/>
+      </View>
     )
 }
 
@@ -210,4 +208,5 @@ const styles = StyleSheet.create({
     },
 
 });
+
 
