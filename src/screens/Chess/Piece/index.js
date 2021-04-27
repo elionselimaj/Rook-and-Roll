@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import { StyleSheet, Image, View } from "react-native";
+import { StyleSheet, Image } from "react-native";
 import { PanGestureHandler } from "react-native-gesture-handler";
 import Animated, {
   runOnJS,
@@ -112,7 +112,7 @@ const Piece = ({ id, startPosition, chess, onTurn, enabled }) => {
     };
   });
   return (
-    <View>
+    <>
       <Animated.View style={original}/>
       <Animated.View style={underlay}/>
       <PanGestureHandler onGestureEvent={onGestureEvent} enabled={enabled}>
@@ -120,7 +120,7 @@ const Piece = ({ id, startPosition, chess, onTurn, enabled }) => {
           <Image source={PIECES[id]} style={styles.piece}/>
         </Animated.View>
       </PanGestureHandler>
-    </View>
+    </>
   );
 };
 

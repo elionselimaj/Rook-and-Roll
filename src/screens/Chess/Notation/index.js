@@ -4,11 +4,12 @@ const { width } = Dimensions.get('window');
 export const SIZE = width / 8;
 
 export const toTranslation = (to) => {
+  'worklet';
   const tokens = to.split('');
   const col = tokens[0];
   const row = tokens[1];
   if (!col || row) {
-    throw new Error('Invalid notation: ' + to);
+    console.log('Invalid notation: ' + to);
   }
   const indexes = {
     x: col.charCodeAt(0) - 'a'.charCodeAt(0),
@@ -21,6 +22,7 @@ export const toTranslation = (to) => {
 };
 
 export const toPosition = ({ x, y }) => {
+  'worklet';
   const col = String.fromCharCode(97 + Math.round(x / SIZE));
   const row = `${8 - Math.round(y / SIZE)}`;
   return `${col}${row}`;

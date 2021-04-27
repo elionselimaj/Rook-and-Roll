@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4b9396-e2bc-4bc7-9a41-bedcaa6eb052" name="Default Changelist" comment="minor changes">
-      <change afterPath="$PROJECT_DIR$/src/assets/bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/br.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/wr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Background/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Board/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/BottomNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/BottomNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Chessboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chess/Background/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/Background/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chess/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/TicTacToe/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TicTacToe/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/Chess/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -49,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
+        <entry file="file://$PROJECT_DIR$/src/screens/Chess/Notation/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="38">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -60,10 +46,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/Chess/Piece/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="237">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -82,9 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>whitePawn</find>
-      <find>ini</find>
-      <find>gitignore</find>
       <find>.idea</find>
       <find>setGameState</find>
       <find>Chessbo</find>
@@ -102,8 +106,6 @@
       <find>react-native-reanimated</find>
       <find>react-native-redash</find>
       <find>POSITION</find>
-      <find>runOnJS</find>
-      <find>reanimated</find>
       <find>f</find>
       <find>Position</find>
       <find>&quot;</find>
@@ -112,6 +114,11 @@
       <find>Piece</find>
       <find>onend</find>
       <find>width</find>
+      <find>reanimated</find>
+      <find>reanim</find>
+      <find>run</find>
+      <find>react</find>
+      <find>runOnJS</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -142,15 +149,16 @@
         <option value="$PROJECT_DIR$/assets/white_pawn.svg" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
         <option value="$PROJECT_DIR$/src/screens/Chessboard/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/Chess/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/TicTacToe/index.js" />
-        <option value="$PROJECT_DIR$/src/navigation/BottomNavigator.js" />
         <option value="$PROJECT_DIR$/src/navigation/AppNavigator.js" />
-        <option value="$PROJECT_DIR$/src/screens/Chess/Background/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/TicTacToe/index.js" />
+        <option value="$PROJECT_DIR$/babel.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Background/index.js" />
+        <option value="$PROJECT_DIR$/src/navigation/BottomNavigator.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/index.js" />
         <option value="$PROJECT_DIR$/src/screens/Chess/Board/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" />
       </list>
     </option>
   </component>
@@ -161,8 +169,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
     <option name="y" value="23" />
-    <option name="width" value="1044" />
+    <option name="width" value="726" />
     <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -229,6 +238,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Chess" type="462c0819:PsiDirectoryNode" />
+              <item name="Background" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="Chess" type="462c0819:PsiDirectoryNode" />
               <item name="Board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,14 +254,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Chess" type="462c0819:PsiDirectoryNode" />
-              <item name="Piece" type="462c0819:PsiDirectoryNode" />
+              <item name="Notation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
+              <item name="Chess" type="462c0819:PsiDirectoryNode" />
+              <item name="Piece" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,20 +378,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46125000" />
+    <option name="totallyTimeSpent" value="53419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1044" height="783" extended-state="0" />
+    <frame x="3" y="23" width="726" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20136853" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14070351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940404" visible="true" weight="0.24550898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940404" weight="0.24550898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +401,7 @@
       <window_info anchor="bottom" id="RNConsole" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32934132" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.36526945" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.36490682" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005959" side_tool="true" weight="0.24700598" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -415,9 +433,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/App.js" />
     <entry file="file://$PROJECT_DIR$/src/navigation/NavigationService.js" />
@@ -524,7 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Notation/index.js" />
     <entry file="file://$PROJECT_DIR$/src/assets/wr.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -540,16 +554,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/bp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/TicTacToe/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/navigation/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -560,50 +564,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/BottomNavigator.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/Chessboard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state>
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chess/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="237">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/TicTacToe/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/BottomNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="3" column="40" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="440">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Notation/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Chess/Piece/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>

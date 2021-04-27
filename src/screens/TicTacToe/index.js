@@ -5,98 +5,97 @@ import whitePawn from '../../../assets/white_pawn.svg';
 import blackPawn from '../../../assets/black_pawn.svg';
 import SvgUri from 'react-native-svg-uri';
 
-const [gameState, setGameState] = useState([[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]);
-const [currentPlayer, setCurrentPlayer] = useState(1);
-
-const initializeGame = () => {
-    setGameState([[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]])
-};
-const getWinner = () => {
-    const NUMTILES = 5; // 5
-    let sum;
-    const arr = gameState;
-    for(let i = 0; i < NUMTILES; i++){
-        sum = arr[i][0] + arr[i][1] + arr[i][2] + arr[i][3] + arr[i][4];
-        if(sum === 5){
-            return 1;
-        } else if (sum === -5) {
-            return -1;
-        }
-    }
-
-    for(let i = 0; i < NUMTILES; i++){
-        sum = arr[0][i] + arr[1][i] + arr[2][i] + arr[3][i] + arr[4][i];
-        if(sum === 5){
-            return 1;
-        } else if (sum === -5) {
-            return -1;
-        }
-    }
-
-    sum = arr[0][0] + arr[1][1] + arr[2][2] + arr[3][3] + arr[4][4];
-    if(sum === 5){
-        return 1;
-    } else if (sum === -5) {
-        return -1;
-    }
-
-    sum = arr[4][0] + arr[3][1] + arr[2][2] + arr[1][3] + arr[0][4];
-    if(sum === 5){
-        return 1;
-    } else if (sum === -5) {
-        return -1;
-    }
-
-    return 0;
-
-};
-
-const onNewGame = () => {
-    initializeGame();
-};
-
-const onTilePress = (row, col) => {
-    let value = gameState[row][col];
-    if (value !== 0) {
-        console.log('restart the game');
-        return;
-    }
-    const player = currentPlayer;
-    const arr = gameState.slice();
-    arr[row][col] = player;
-    setGameState(arr);
-
-    const nextPlayer = (player === 1 ) ? -1: 1;
-    setCurrentPlayer(nextPlayer);
-
-    let winner = getWinner();
-    if (winner === 1) {
-        Alert.alert('Player 1 is the winner');
-        initializeGame();
-    }else if (winner === -1){
-        Alert.alert('Player 2 is the winner');
-        initializeGame();
-    }
-};
-
-const renderIcon = (row, col) => {
-    const value = gameState[row][col];
-    switch(value){
-        case 1: return <SvgUri
-          width="50"
-          height="50"
-          source={whitePawn}
-        />;
-        case -1 : return  <SvgUri
-          width="50"
-          height="50"
-          source={blackPawn}
-        />;
-        default: return <View />;
-    }
-};
-
 export default () => {
+    const [gameState, setGameState] = useState([[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]);
+    const [currentPlayer, setCurrentPlayer] = useState(1);
+
+    const initializeGame = () => {
+        setGameState([[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]])
+    };
+    const getWinner = () => {
+        const NUMTILES = 5; // 5
+        let sum;
+        const arr = gameState;
+        for(let i = 0; i < NUMTILES; i++){
+            sum = arr[i][0] + arr[i][1] + arr[i][2] + arr[i][3] + arr[i][4];
+            if(sum === 5){
+                return 1;
+            } else if (sum === -5) {
+                return -1;
+            }
+        }
+
+        for(let i = 0; i < NUMTILES; i++){
+            sum = arr[0][i] + arr[1][i] + arr[2][i] + arr[3][i] + arr[4][i];
+            if(sum === 5){
+                return 1;
+            } else if (sum === -5) {
+                return -1;
+            }
+        }
+
+        sum = arr[0][0] + arr[1][1] + arr[2][2] + arr[3][3] + arr[4][4];
+        if(sum === 5){
+            return 1;
+        } else if (sum === -5) {
+            return -1;
+        }
+
+        sum = arr[4][0] + arr[3][1] + arr[2][2] + arr[1][3] + arr[0][4];
+        if(sum === 5){
+            return 1;
+        } else if (sum === -5) {
+            return -1;
+        }
+
+        return 0;
+
+    };
+
+    const onNewGame = () => {
+        initializeGame();
+    };
+
+    const onTilePress = (row, col) => {
+        let value = gameState[row][col];
+        if (value !== 0) {
+            console.log('restart the game');
+            return;
+        }
+        const player = currentPlayer;
+        const arr = gameState.slice();
+        arr[row][col] = player;
+        setGameState(arr);
+
+        const nextPlayer = (player === 1 ) ? -1: 1;
+        setCurrentPlayer(nextPlayer);
+
+        let winner = getWinner();
+        if (winner === 1) {
+            Alert.alert('Player 1 is the winner');
+            initializeGame();
+        }else if (winner === -1){
+            Alert.alert('Player 2 is the winner');
+            initializeGame();
+        }
+    };
+
+    const renderIcon = (row, col) => {
+        const value = gameState[row][col];
+        switch(value){
+            case 1: return <SvgUri
+              width="50"
+              height="50"
+              source={whitePawn}
+            />;
+            case -1 : return  <SvgUri
+              width="50"
+              height="50"
+              source={blackPawn}
+            />;
+            default: return <View />;
+        }
+    };
     return(
       <View style={{ flex: 1, justifyContent: 'center' , alignItems: 'center'}}>
           <View style={{flexDirection: "row"}}>
