@@ -34,7 +34,7 @@ export default ({ chess, onTurn, state }) => {
           })
         )}
       </View>
-      <View style={[styles.player, {opacity: state.player === 'b' ? 1:0.1}]}>
+      <View style={[styles.player, {opacity: state.player === 'w' ? 1:0.1}]}>
         <View style={[styles.playerDetails, { backgroundColor: Colors.white }]}/>
         <Text style={styles.playerText}>{"White to move"}</Text>
       </View>
