@@ -1,15 +1,15 @@
 import React, { useCallback } from "react";
-import { StyleSheet, Image } from "react-native";
+import { Image, StyleSheet } from "react-native";
 import { PanGestureHandler } from "react-native-gesture-handler";
 import Animated, {
   runOnJS,
   useAnimatedGestureHandler,
   useAnimatedStyle,
   useSharedValue,
-  withTiming,
+  withTiming
 } from "react-native-reanimated";
 
-import { toTranslation, SIZE, toPosition } from "../Notation";
+import { SIZE, toPosition, toTranslation } from "../Notation";
 
 const styles = StyleSheet.create({
   piece: {
@@ -60,7 +60,6 @@ const Piece = ({ id, startPosition, chess, onTurn, enabled }) => {
     },
     [chess, isGestureActive, offsetX, offsetY, onTurn, translateX, translateY]
   );
-
   const onGestureEvent = useAnimatedGestureHandler({
     onStart: () => {
       offsetX.value = translateX.value;

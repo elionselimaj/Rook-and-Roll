@@ -1,59 +1,43 @@
-import React, { useCallback, useRef, useState } from 'react';
-import { View, StyleSheet, Dimensions } from 'react-native';
-import { Chess } from 'chess.js';
+import React from "react";
+import { View, StyleSheet, Dimensions, Text } from "react-native";
+import Colors from "../../../constants/Colors";
 
-import Background from '../Background';
-import Piece from '../Piece';
+import Background from "../Background";
+import Piece from "../Piece";
 
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get("window");
 
-const useConst = (initialValue) => {
-  const ref = useRef();
-  if (ref.current === undefined) {
-    // Box the value in an object so we can tell if it's initialized even if the initializer
-    // returns/is undefined
-    ref.current = {
-      value: typeof initialValue === 'function'
-        ? // eslint-disable-next-line @typescript-eslint/ban-types
-        initialValue()
-        : initialValue
-    };
-  }
-  return ref.current.value;
-};
-
-export default () => {
-  const chess = useConst(() => new Chess());
-  const [state, setState] = useState({
-    player: 'w',
-    board: chess.board()
-  });
-  const onTurn = useCallback(() => {
-    setState({
-      player: state.player === 'w' ? 'b' : 'w',
-      board: chess.board()
-    });
-  }, [chess, state.player]);
+export default ({ chess, onTurn, state }) => {
   return (
-    <View style={styles.container}>
-      <Background />
-      {state.board.map((row, y) =>
-        row.map((piece, x) => {
-          if (piece !== null) {
-            return (
-              <Piece
-                key={`${x}-${y}`}
-                id={`${piece.color}${piece.type}`}
-                startPosition={{ x, y }}
-                chess={chess}
-                onTurn={onTurn}
-                enabled={state.player === piece.color}
-              />
-            );
-          }
-          return null;
-        })
-      )}
+    <View>
+      <View style={{ flexDirection: "row", marginBottom: 10, marginLeft: 10, opacity: state.player === 'b' ? 1:0.1 }}>
+        <View style={{ width: 20, height: 20, backgroundColor: Colors.black }}/>
+        <Text style={{ marginLeft: 5, fontWeight: 'bold' }}>{"Black to move"}</Text>
+      </View>
+      <View style={styles.container}>
+        <Background/>
+        {state.board.map((row, y) =>
+          row.map((piece, x) => {
+            if (piece !== null) {
+              return (
+                <Piece
+                  key={`${x}-${y}`}
+                  id={`${piece.color}${piece.type}`}
+                  startPosition={{ x, y }}
+                  chess={chess}
+                  onTurn={onTurn}
+                  enabled={state.player === piece.color}
+                />
+              );
+            }
+            return null;
+          })
+        )}
+      </View>
+      <View style={{ flexDirection: "row", marginTop: 10, marginLeft: 10, opacity: state.player === 'w' ? 1:0.1 }}>
+        <View style={{ width: 20, height: 20, backgroundColor: Colors.white }}/>
+        <Text style={{ marginLeft: 5, fontWeight: 'bold' }}>{"White to move"}</Text>
+      </View>
     </View>
   );
 }
