@@ -1,22 +1,63 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|@sentry|native-base|@codler)"
+    ],
+    "automock": false
   },
   "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-masked-view/masked-view": "^0.2.2",
+    "@react-navigation/native": "^5.0.1",
+    "chess.js": "^0.11.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "expo": "~41.0.1",
+    "expo-font": "~9.1.0",
     "expo-status-bar": "~1.0.4",
+    "native-base": "^2.15.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-gesture-handler": "^1.8.2",
+    "react-native-reanimated": "^2.1.0",
+    "react-native-redash": "^16.0.8",
+    "react-native-screens": "~3.0.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.3",
+    "react-navigation-tabs": "^2.11.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^26.6.3",
+    "jest-expo": "^41.0.0",
+    "jest-fetch-mock": "^3.0.3",
+    "prettier": "^1.19.1",
+    "react-native-testing-library": "^6.0.0",
+    "react-test-renderer": "^17.0.2"
   },
   "private": true
 }
