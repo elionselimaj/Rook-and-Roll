@@ -1,21 +1,14 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import Colors from '../../../constants/Colors';
-
+import { styles } from './styles';
 
 const Square = ({ white, row, col}) => {
   const backgroundColor = white ? Colors.primaryBlack: Colors.primaryWhite;
   const color = white ? Colors.white : Colors.black;
   const textStyle = { fontWeight: "500", color };
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor,
-        padding: 4,
-        justifyContent: "space-between",
-      }}
-    >
+    <View style={[styles.squareContainer, { backgroundColor }]}>
       <Text style={[textStyle, { opacity: col === 0 ? 1 : 0 }]}>
         {"" + (8 - row)}
       </Text>
@@ -31,7 +24,7 @@ const Square = ({ white, row, col}) => {
 const Row = ({ white, row }) => {
   const offset = white ? 0 : 1;
   return(
-    <View style={{ flex: 1, flexDirection: 'row' }}>
+    <View style={styles.rowContainer}>
       {new Array(8).fill(0).map((_, i) => (
         <Square row={row} col={i} key={i} white={(i + offset) % 2 === 1} />
       ))}
@@ -40,7 +33,6 @@ const Row = ({ white, row }) => {
 };
 
 export default () => {
-
   return(
     <View style={{ flex: 1 }}>
       {new Array(8).fill(0).map((_, i) => (

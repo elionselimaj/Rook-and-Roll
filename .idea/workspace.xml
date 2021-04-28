@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4b9396-e2bc-4bc7-9a41-bedcaa6eb052" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/game.test.js" afterDir="false" />
+    <list default="true" id="fd4b9396-e2bc-4bc7-9a41-bedcaa6eb052" name="Default Changelist" comment="player's turn">
       <change afterPath="$PROJECT_DIR$/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/AnimationHelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/LiquidSwipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/SVGHelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/Weave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Liquid/WeaveHelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/check-mate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/chess-board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/chessboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Background/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Chess/Board/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/AppNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chess/Background/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/Background/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Chess/Board/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Chess/Board/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,59 +22,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__tests__/game.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="53" selection-start-line="9" selection-end-line="53" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#98#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Liquid/LiquidSwipe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Liquid/Content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/styles.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#42#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -146,10 +120,8 @@
         <option value="$PROJECT_DIR$/src/navigation/BottomNavigator.js" />
         <option value="$PROJECT_DIR$/src/screens/Chess/index.js" />
         <option value="$PROJECT_DIR$/src/constants/Colors.js" />
-        <option value="$PROJECT_DIR$/src/screens/Chess/Background/index.js" />
         <option value="$PROJECT_DIR$/src/screens/Chess/Piece/index.js" />
         <option value="$PROJECT_DIR$/src/screens/Chess/Notation/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/Chess/Board/index.js" />
         <option value="$PROJECT_DIR$/src/components/Liquid/AnimationHelpers.js" />
         <option value="$PROJECT_DIR$/src/components/Liquid/Button.js" />
         <option value="$PROJECT_DIR$/src/components/Liquid/SVGHelpers.js" />
@@ -162,6 +134,11 @@
         <option value="$PROJECT_DIR$/src/components/Liquid/Content.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Liquid/LiquidSwipe.js" />
+        <option value="$PROJECT_DIR$/__tests__/game.test.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Background/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Background/styles.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Board/styles.js" />
+        <option value="$PROJECT_DIR$/src/screens/Chess/Board/index.js" />
       </list>
     </option>
   </component>
@@ -171,7 +148,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1040" />
     <option name="height" value="788" />
@@ -201,13 +178,14 @@
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
               <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Footer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
@@ -237,29 +215,6 @@
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="Chess" type="462c0819:PsiDirectoryNode" />
               <item name="Board" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="Chess" type="462c0819:PsiDirectoryNode" />
-              <item name="Notation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="Chess" type="462c0819:PsiDirectoryNode" />
-              <item name="Piece" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rook-and-roll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rook-and-roll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619608505021</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add liquid swipe">
+      <created>1619615785787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619615785788</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -429,15 +391,18 @@
     <history-entry file="it_works_(1) - 2021.04.28 at 15h 09m 55s.xml">
       <configuration name="it works (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="it_works_(1) - 2021.04.28 at 15h 22m 30s.xml">
+      <configuration name="it works (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73785000" />
+    <option name="totallyTimeSpent" value="75107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1040" height="788" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="788" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18940137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -451,10 +416,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32919255" />
-      <window_info anchor="bottom" id="RNConsole" order="9" />
+      <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32986626" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3551263" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3551263" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005959" side_tool="true" weight="0.24700598" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -475,11 +440,10 @@
     <MESSAGE value="zoom in &amp; out" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="player's turn" />
-    <option name="LAST_COMMIT_MESSAGE" value="player's turn" />
+    <MESSAGE value="add liquid swipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="add liquid swipe" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App.js" />
-    <entry file="file://$PROJECT_DIR$/src/navigation/NavigationService.js" />
     <entry file="file://$PROJECT_DIR$/src/components/liquid-swipe/LiquidSwipe.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/expo/build/launch/registerRootComponent.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,16 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/black_pawn.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -556,13 +510,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/white_pawn.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Chess/Board.tsx" />
     <entry file="file://$USER_HOME$/Desktop/Chess/Background.tsx" />
@@ -609,16 +556,6 @@
           <caret line="441" column="14" selection-start-line="441" selection-start-column="11" selection-end-line="441" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="102" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Liquid/Weave.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -713,16 +640,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/check-mate.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/AppNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/bn.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -749,27 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__tests__/game.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="53" selection-start-line="9" selection-end-line="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#98#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Liquid/Content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -782,10 +678,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Liquid/LiquidSwipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="211">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/game.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/AppNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Background/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Chess/Board/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

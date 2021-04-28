@@ -1,18 +1,18 @@
 import React from "react";
-import { View, StyleSheet, Dimensions, Text } from "react-native";
+import { View, Text } from "react-native";
 import Colors from "../../../constants/Colors";
+import { styles } from './styles';
 
 import Background from "../Background";
 import Piece from "../Piece";
 
-const { width } = Dimensions.get("window");
 
 export default ({ chess, onTurn, state }) => {
   return (
     <View>
-      <View style={{ flexDirection: "row", marginBottom: 10, marginLeft: 10, opacity: state.player === 'b' ? 1:0.1 }}>
-        <View style={{ width: 20, height: 20, backgroundColor: Colors.black }}/>
-        <Text style={{ marginLeft: 5, fontWeight: 'bold' }}>{"Black to move"}</Text>
+      <View style={[styles.player, {opacity: state.player === 'b' ? 1:0.1}]}>
+        <View style={[styles.playerDetails, { backgroundColor: Colors.black }]}/>
+        <Text style={styles.playerText}>{"Black to move"}</Text>
       </View>
       <View style={styles.container}>
         <Background/>
@@ -34,19 +34,10 @@ export default ({ chess, onTurn, state }) => {
           })
         )}
       </View>
-      <View style={{ flexDirection: "row", marginTop: 10, marginLeft: 10, opacity: state.player === 'w' ? 1:0.1 }}>
-        <View style={{ width: 20, height: 20, backgroundColor: Colors.white }}/>
-        <Text style={{ marginLeft: 5, fontWeight: 'bold' }}>{"White to move"}</Text>
+      <View style={[styles.player, {opacity: state.player === 'b' ? 1:0.1}]}>
+        <View style={[styles.playerDetails, { backgroundColor: Colors.white }]}/>
+        <Text style={styles.playerText}>{"White to move"}</Text>
       </View>
     </View>
   );
 }
-
-
-const styles = StyleSheet.create({
-  container: {
-    width,
-    height: width
-  }
-});
-
