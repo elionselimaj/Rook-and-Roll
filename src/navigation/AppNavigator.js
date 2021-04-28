@@ -2,9 +2,11 @@ import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import Colors from '../constants/Colors';
 import BottomNavigator from './BottomNavigator';
+import LiquidSwipe from "../components/Liquid/LiquidSwipe";
 
 const MainNavigator = createStackNavigator(
     {
+        Liquid: LiquidSwipe,
         BottomNav: BottomNavigator,
     },
     {
