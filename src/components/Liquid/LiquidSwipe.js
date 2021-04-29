@@ -26,7 +26,7 @@ import Content from './Content';
 import Button from './Button';
 
 export const assets = [
-  require('../../assets/chessboard.png'),
+  require('../../assets/tictactoe.png'),
   require('../../assets/chess-board.png'),
 ];
 
@@ -95,7 +95,7 @@ export default ({ navigation }) => {
       <Content
         backgroundColor={Colors.primaryBlack}
         source={assets[0]}
-        title2="Chess"
+        title2="Tic Tac Toe"
         color={Colors.white}
       />
       <PanGestureHandler {...gestureHandler}>
